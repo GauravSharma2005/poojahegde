@@ -11,7 +11,7 @@ Welcome to {}
 I can upload any media to gofile.io and return the link.
 Just send me the media and you will get the link!
 
-By @StarkBots
+By HindiToonsIndia.tk
     """
 
     # Home Button
@@ -21,13 +21,13 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Get The Hindi Toons,Anime ✨", url="https://t.me/HindiToonsIndiatk")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing Shows ♥", url="https://t.me/HindiToonsIndiatk")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/HindiToonsIndiatk")],
     ]
 
     # Help Message
@@ -45,13 +45,13 @@ Just send me the media and you will get the link!
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to upload files to gofile.io by @StarkBots
+A telegram bot to upload files to gofile.io by @HindiToonsindiatk
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/GoFileBot)
+Source Code : [Click Here](https://t.me/HindiToonsIndiatk)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : @TheHumanLord
     """
