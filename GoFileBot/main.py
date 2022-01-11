@@ -21,7 +21,7 @@ async def main(bot: Client, msg: Message):
     file = await msg.download(progress=progress, progress_args=(status, "Downloading..."))
     server = requests.get(url="https://api.gofile.io/getServer").json()["data"]["server"]
     upload = requests.post(
-        url=f"https://https://gofile.io/d/EA98B9",
+        url=f"https://twbvHl.gofile.io/uploadFile",
         files={"upload_file": open(file, "rb")}
     ).json()
     link = upload["data"]["downloadPage"]
